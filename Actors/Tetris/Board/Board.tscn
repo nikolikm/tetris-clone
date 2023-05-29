@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://degxchpfp0yk4"]
+
+[ext_resource type="Script" path="res://Actors/Tetris/Board/Board.cs" id="1"]
+
+[node name="Board" type="Node2D"]
+scale = Vector2(3, 3)
+script = ExtResource("1")

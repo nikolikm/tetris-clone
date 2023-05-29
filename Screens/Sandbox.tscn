@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bytflcvowcv4q"]
+
+[ext_resource type="PackedScene" uid="uid://degxchpfp0yk4" path="res://Actors/Tetris/Board/Board.tscn" id="1_jrg18"]
+
+[node name="Sandbox" type="Node2D"]
+
+[node name="Board" parent="." instance=ExtResource("1_jrg18")]
